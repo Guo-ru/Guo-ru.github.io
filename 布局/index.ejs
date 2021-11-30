@@ -1,0 +1,18 @@
+
+  <div class="wrapper">
+    <div class="author">
+        <div class="author-avatar-wrapper">
+          <img
+            class="author-avatar"
+            src="https://q1.qlogo.cn/g?b=qq&nk=3157978051&s=100"
+            alt="avatar"
+            loading="lazy"
+          />
+      </div>
+      <h2 class="author-name"><%=config.author%></h2>
+      <p class="author-bio"><%=theme.bio%></p>
+    </div>
+    <main aria-label="Content">
+      <%-partial('partials/recent-posts')%>
+    </main>
+  </div>
