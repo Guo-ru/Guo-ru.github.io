@@ -1,4 +1,4 @@
-﻿function show_date_time() {
+function show_date_time() {
 	window.setTimeout("show_date_time()", 1000);
 	var BirthDay = new Date("02/28/2022 00:00:01");//初始时间
 	var today = new Date();
